@@ -39,6 +39,8 @@
       <div class="container">
         <div class="image-container">
             <img class="image" src="/images/h2-console.png" alt="img">
+            <img class="image" src="/images/1.png" alt="img">
+            <img class="image" src="/images/2.png" alt="img">
         </div>
       </div>
     <hr>
