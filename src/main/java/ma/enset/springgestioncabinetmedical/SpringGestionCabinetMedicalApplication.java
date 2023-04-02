@@ -62,6 +62,8 @@ public class SpringGestionCabinetMedicalApplication implements CommandLineRunner
         patientRepository.save(patientToUpdate);
         System.out.println("after update : "+patientRepository.findById(2L).get().toString());
         System.out.println("===================================");
-
+        patientRepository.deleteById(7L);
+        System.out.println("after deleting one Patient the size  is : "+patientRepository.count());
+        System.out.println("==================================");
     }
 }
